@@ -5,6 +5,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>WiringX</RootNamespace>
+        <Version>0.0.1</Version>
+        <Authors>dotTinyNet</Authors>
+        <Description>wiringX .NET DLL Wrapper</Description>
     </PropertyGroup>
 
 </Project>

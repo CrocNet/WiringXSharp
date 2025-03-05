@@ -1,4 +1,4 @@
-# DotNet C# wiringX Wrapper.
+# .NET C# wiringX Wrapper.
 
 wiringX is a C library, modular approach to several GPIO interfaces.  
 https://github.com/wiringX/wiringX
