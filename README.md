@@ -6,6 +6,7 @@ https://github.com/wiringX/wiringX
 * **WiringXSharp** is a DLL wrapper for your DotNet projects.
 * **WiringXDemo** is a command line demo, which flip-flops the output if a given GPIO pin.
 
+  Suitable for AOT compilation.  Dockerfile included for arm64 compilation.
 
 #### Tested
 | Hardware | GPIO | I2C | PWM | SerialPort | SPI |  
@@ -14,6 +15,7 @@ https://github.com/wiringX/wiringX
 | Duo256   |      |     |     |            |     |
 
 #### Example
+```csharp
     using WiringXSharp;
     
     WiringX.Setup("milkv_duos");
