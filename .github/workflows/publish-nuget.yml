@@ -18,7 +18,7 @@ jobs:
           dotnet-version: '9.0.x'  # Adjust to your project's .NET version
 
       - name: Set VERSION
-        run: echo "VERSION=${{ github.ref_name }}" | sed 's/^v//' >> $GITHUB_ENV
+        run: echo "VERSION=$(echo ${{ github.ref_name }} | sed 's/^v//')" >> $GITHUB_ENV
 
       - name: Restore
         run: dotnet restore
