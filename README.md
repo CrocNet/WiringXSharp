@@ -3,16 +3,18 @@
 wiringX is a C library, modular approach to several GPIO interfaces.  
 https://github.com/wiringX/wiringX
 
-* **WiringXSharp** is a DLL wrapper for your DotNet projects.
-* **WiringXDemo** is a command line demo, which flip-flops the output if a given GPIO pin.
+**WiringXSharp** is a DLL wrapper for your .NET projects written in C#.
+It is available as a NuGet package https://www.nuget.org/packages/WiringXSharp
 
-  Suitable for AOT compilation.  Dockerfile included for arm64 compilation.
+
+**WiringXDemo** is a command line demo, which flip-flops the output if a given GPIO pin.
+Suitable for AOT compilation.  Dockerfile included for arm64 compilation.
 
 #### Tested
-| Hardware | GPIO | I2C | PWM | SerialPort | SPI |  
-|----------|------|-----|-----|------------|-----|  
-| DuoS     | ✓    |     |     |            |     |  
-| Duo256   |      |     |     |            |     |
+| Hardware            | GPIO | I2C | PWM | SerialPort | SPI |  
+|---------------------|------|-----|-----|------------|-----|  
+| Milk-V DuoS (ARM)   | ✓    |     |     |            |     |  
+| Milk-V Duo256 (ARM) |      |     |     |            |     |
 
 #### Example
 ```csharp
