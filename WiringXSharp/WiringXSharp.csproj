@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <RootNamespace>WiringX</RootNamespace>
         <Version>0.0.1</Version>
-        <Authors>dotTinyNet</Authors>
+        <Authors>CrocNet</Authors>
         <Description>wiringX .NET DLL Wrapper</Description>
     </PropertyGroup>
 
